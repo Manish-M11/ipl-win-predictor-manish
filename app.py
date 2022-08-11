@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from sklearn.preprocessing import OneHotEncoder
 
 teams = ['Sunrisers Hyderabad',
          'Mumbai Indians',
